@@ -4,5 +4,6 @@
 {
     printf "alias shebangs='printf \"#!/usr/bin/env bash\" >> ./*.sh'\n"
     printf "alias bangs='printf \"#!/usr/bin/env bash\" >> ./*'\n"
-    printf "alias pybangs='printf \"#!/usr/bin/env bash\" >> ./*'\n"
+    printf "alias pybangs='printf \"#!/usr/bin/python3\" >> ./*.py'\n"
+    printf "alias jsbangs='printf \"#!/usr/bin/node\" >> ./*.js'\n"
 } >>  "$1"/.zshrc
