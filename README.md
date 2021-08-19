@@ -1,5 +1,11 @@
 # MyAliases
-Aliases that I use on systems. Run the setup-aliases.sh file when you need to setup aliases on unix systems. Windows will be configured if I need it.
+Aliases that I use on systems. Run the `setup-aliases.sh` file when you need to setup aliases on unix systems.
 
-For mac aliases must be configured with instruction from the following link:
-https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/
+Commands for appending shebang lines and `chmod u+x` to all files in the current directory for Holberton projects:
+
+- `shebangs`
+- `bangs`
+- `pybangs`
+- `jsbangs`
+
+Windows will be configured if I need it.
