@@ -9,4 +9,6 @@
     printf "alias pybangs='printf \"#!/usr/bin/python3\" >> ./*.py'\n"
     printf "alias jsbangs='printf \"#!/usr/bin/node\" >> ./*.js'\n"
     printf "alias hb=\'python3 /Users/thomasfrancis/Documents/hb-file-creator/hb-scraper.py \"\$PWD\"'\n"
+    # you'll need to edit this one with additional backslashes around main to work
+    printf "alias ifnameismain='printf if \"__name__ == \\\"__main__\\\":\" >> ./*.py'\n"
 } >>  "$HOME"/.zshrc
