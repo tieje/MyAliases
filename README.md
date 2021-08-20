@@ -12,7 +12,7 @@ Commands for appending shebang lines to all files in the current directory for H
 Other commands:
 
 - `ifnameismain` - This command appends `if __name__ == "__main__"` to all python files in the directory
-- `hb <holberton-project URL>` - This command creates Holberton project files using the [hb-file-creator](https://github.com/tieje/hb-file-creator)
+- `hb <holberton-project URL>` - This command creates Holberton project files using the [hb-file-creator](https://github.com/tieje/hb-file-creator). You'll need install `hb-file-creator` in order to use this command.
 
 Windows will be configured if I need it.
 
